@@ -3,7 +3,7 @@ import cv2 as cv
 
 # https://blog.csdn.net/weixin_45668655/article/details/103922317
 
-image = "../data/shapes.png"
+image = "../../data/shapes.png"
 img = cv.imread(image)
 imgGray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 
