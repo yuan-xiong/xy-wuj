@@ -1,0 +1,8 @@
+#!/bin/bash
+
+	#cd autosub/
+	#mkdir audio output
+	#ln -s ../../models/deepspeech-0.9.3-models.* .
+
+	python3 autosub/main.py --model deepspeech-0.9.3-models.pbmm --scorer deepspeech-0.9.3-models.scorer --file /home/xy18/yuan/data/itflexires.mp4
+
