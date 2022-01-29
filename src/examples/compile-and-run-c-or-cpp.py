@@ -20,7 +20,7 @@ def compile_2_run():
     myrun(cmd)
 
     myprint("Compile", 2)
-    cmd = " ".join([CC, "-o", TARGET, SOURCE])
+    cmd = " ".join([CC, "-o", TARGET, SOURCE, "$(python3-config --libs)"])
     myprint("cmd:" + cmd)
     myrun(cmd)
 
