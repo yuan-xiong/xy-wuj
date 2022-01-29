@@ -39,5 +39,7 @@ if __name__ == '__main__':
     compile_2_run()
 
 # python3 compile-and-run-c-or-cpp.py c/unsafe-type.c
+# python3 compile-and-run-c-or-cpp.py cpp/unsafe-type.cpp
+
 # cmd: gcc -o xy c/unsafe-type.c
 # black -l 80 -S compile-and-run-c-or-cpp.py
